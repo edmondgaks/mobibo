@@ -51,7 +51,7 @@ export default function Home() {
             <p className="text-xs">audio</p>
           </div>
         </div>
-        <Image src={"/image2.png"} width={400} height={400} className="" alt="image 2" />
+        <Image src={"/imageled.png"} width={400} height={400} className="" alt="image 2" />
         <div className="flex flex-row gap-4">
           <Sun size={18} />
           <div className="flex justify-center flex-col gap-2">
@@ -79,6 +79,63 @@ export default function Home() {
             a game console and play directly <br />
             on our LED truck
           </p>
+        </div>
+      </div>
+      <div className="w-full flex flex-col gap-10 h-[80vh] p-2">
+        <div className="flex flex-row">
+          <div className="flex w-[50%] flex-col gap-6">
+            <p className="text-xs">We work <br /> with</p>
+            <h1 className="text-6xl font-semibold">different <br />companies</h1>
+          </div>
+          <div>
+            <p className="text-sm">Since <br /> <span className="text-base">2004</span></p>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <p className="text-xs">Have done advertising campaigns for industries such as:</p>
+          <p className="text-base font-semibold">Cannabis</p>
+          <p className="text-base font-semibold">Crypto & NFT</p>
+          <p className="text-base font-semibold">Political</p>
+          <p className="text-base font-semibold">Sports</p>
+          <p className="text-xs">and many others</p>
+        </div>
+        <div className="flex flex-row">
+          <div className="w-[50%]"></div>
+          <div className="flex flex-col gap-1">
+            <p className="text-xs">Orders executed</p>
+            <p>1,450+</p>
+            <p className="text-xs">Reorders</p>
+            <p>350+</p>
+          </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 p-2 gap-2">
+        <Image src={"/image1.png"} width={320} height={320} alt="image" />
+        <Image src={"/image2.png"} width={320} height={320} alt="image" />
+        <Image src={"/image3.png"} width={320} height={320} alt="image" />
+        <Image src={"/image4.png"} width={320} height={320} alt="image" />
+        <Image src={"/image5.png"} width={320} height={320} alt="image" />
+        <Image src={"/image6.png"} width={320} height={320} alt="image" />
+        <Image src={"/image7.png"} width={320} height={320} alt="image" />
+        <Image src={"/image8.png"} width={320} height={320} alt="image" />
+        <Image src={"/image9.png"} width={320} height={320} alt="image" />
+        <Image src={"/image10.png"} width={320} height={320} alt="image" />
+        <Image src={"/image11.png"} width={320} height={320} alt="image" />
+        <Image src={"/image12.png"} width={320} height={320} alt="image" />
+        <Image src={"/image13.png"} width={320} height={320} alt="image" />
+        <Image src={"/image14.png"} width={320} height={320} alt="image" />
+        <Image src={"/image15.png"} width={320} height={320} alt="image" />
+        <Image src={"/image16.png"} width={320} height={320} alt="image" />
+      </div>
+      <div className="h-[70vh] bg-[#E4E4E4]">
+
+      </div>
+      <div className="h-[120vh] bg-cover bg-center bg-no-repeat box-border" style={{ backgroundImage: `url('/dreamobibo.png')` }}></div>
+      <div className="h-[70vh] flex flex-col gap-14 items-center justify-center bg-[#E4E4E4]">
+        <h1 className="text-lg">Test your ideas</h1>
+        <div className="flex flex-row w-full justify-around">
+          <Image src={"/formatinfo.png"} className="self-start" width={120} height={120} alt="car delivery" />
+          <Image src={"/car.png"} width={300} height={300} alt="car delivery" />
         </div>
       </div>
     </main>
