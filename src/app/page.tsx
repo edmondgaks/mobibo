@@ -127,8 +127,21 @@ export default function Home() {
         <Image src={"/image15.png"} width={320} height={320} alt="image" />
         <Image src={"/image16.png"} width={320} height={320} alt="image" />
       </div>
-      <div className="h-[70vh] bg-[#E4E4E4]">
-
+      <div className="h-[80vh] p-2 gap-10 flex flex-col bg-[#E4E4E4]">
+        <div className="w-[50%] text-black flex flex-row justify-between">
+          <p className="font-semibold text-base">$1750</p>
+          <div className="flex flex-col gap-4">
+            <p className="text-xs">per day</p>
+            <p>+</p>
+            <p className="text-sm">discount for each subsequent day</p>
+          </div>
+        </div>
+        <Image src={"/Calendar.png"} width={150} height={150} alt="calendar" className="mx-auto" />
+        <div className="mx-auto flex flex-col">
+          <p className="text-xs mx-auto">We also offer wholesale pricing on 30-60 day campaigns which starts at</p>
+          <p className="mx-auto">$1250</p>
+          <p className="mx-auto text-xs">per day</p>
+        </div>
       </div>
       <div className="h-[120vh] bg-cover bg-center bg-no-repeat box-border" style={{ backgroundImage: `url('/dreamobibo.png')` }}></div>
       <div className="h-[90vh] flex flex-col gap-14 items-center justify-center bg-[#E4E4E4]">
